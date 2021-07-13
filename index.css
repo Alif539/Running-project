@@ -1,0 +1,47 @@
+*{margin: 0;padding:0;box-sizing: border-box;}
+.continer{width:2556px;height: 1800px; margin: 0 auto;}
+.structure{width: 960px;margin: 0 auto;}
+.fix{overflow: hidden;}
+/* global css ends here */
+/* header Area starts */
+
+
+.header{margin:3em auto; }
+.logo{ width:50%;float: left; text-align: center;}
+.logo a{padding-right: 5em;}
+.menu{ width: 50%;float: right;}
+.menu ul{text-align: center; padding-top: 3em; }
+.menu ul li{display: inline-block; list-style: none;}
+.menu ul li a{text-decoration: none;color: black; margin-left: 1.3em;margin-right: 1.3em;font-weight: 600;}
+.menu ul li a:hover,.active{color: #fb416f !important;cursor: pointer; }
+
+/* header Area ends */
+/* heroArea starts */
+.megaHero{position: relative;z-index: 2; }
+.megaHero::before{content:''; background-image:url('images/bg-home.png');background-size: cover;background-repeat: no-repeat; width:100%;height: 100%;position:absolute;z-index: -1; top: 0;left: 0;border-top: 4px solid black;}
+.heroArea{ }
+.heroTExt{display: block;width: 47%; margin: 5em auto 1.3em; text-align: center;}
+.heroTExt h1{text-align: center; font-size:4em; font-weight: 1000;line-height: 0.9em;}
+.heroBtnt{ text-align: center;}
+.heroBtnt{ }
+.btnOne{padding: 0.6em 1.6em;background:none;border: 4px solid #000; margin-right:-.2em ;}
+.btnOne:hover{ color:red ; background-color:white;cursor: pointer;}
+.btnTwo{padding: 0.6em 1.6em;background:none;border: 4px solid #000; margin-left:-.2em ;}
+.btnTwo:hover{color: red; background-color:white;cursor: pointer;}
+.heroImg img{margin: 3em 0em 9em;}
+.pinkish{background-color: rgba(252	,100,137,.8);margin:0em auto 0em ;}
+.pinkBg{ text-align: center;line-height: 3.5em;padding: 4em 0em;}
+.pinkBg h1{font-size: 3em;color: white;font-weight: 600;}
+.pinkBg img{}
+.pinkBg p{font-size: 1.5em;color: white;font-weight: 700;}
+.pinkBg img{}
+.footer{background-color: #111111;padding: 2em 0em;}
+.bottam{padding: .5em; font-size: 1.5em;background: none;border: 6px solid white;color: white;}
+.bottam:hover{background: white;color: red;cursor: pointer;}
+.cpyrt{float: left; margin-top: 3em 0em;    width: 42%;}
+.cpyrt p{ color: white;font-size: 1.5em;}
+.social{float: right;  width: 50%;padding-left: 20em;}
+.social a {margin: 0 .2em;}
+.social a:hover{filter:invert();cursor: pointer;}
+
+/* heroArea ends */
